@@ -1,0 +1,61 @@
+########################################################################
+# Project Specific
+########################################################################
+
+# Add your local project specific .gitignore rules here
+
+# === Temporary Files ===
+temp/
+
+
+########################################################################
+# Environment, System, IDE Files
+########################################################################
+
+# === Environment files ===
+.env
+.env.*
+!.env.example
+env/
+venv/
+.venv/
+
+# === IDE and Editor files ===
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.idea/
+
+# === Mac system files ===
+.DS_Store
+
+# === Common Windows Files ===
+Thumbs.db
+Desktop.ini
+
+########################################################################
+# <Framework-Specific>
+########################################################################
+
+
+
+
+########################################################################
+# <Language-Specific>
+########################################################################
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+*.egg-info/
+.coverage
+.pytest_cache/
+htmlcov/
